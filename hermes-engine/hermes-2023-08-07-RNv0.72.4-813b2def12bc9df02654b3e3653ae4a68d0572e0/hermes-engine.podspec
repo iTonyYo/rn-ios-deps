@@ -16,7 +16,7 @@ package = JSON.parse(File.read(File.join(react_native_path, "package.json")))
 version = package['version']
 
 # sdks/.hermesversion
-hermestag_file = File.join(react_native_path, "sdks", ".hermesversion")
+hermestag_file = File.join(react_native_path, ".hermesversion")
 build_from_source = ENV['BUILD_FROM_SOURCE'] === 'true'
 
 git = "https://github.com/facebook/hermes.git"
