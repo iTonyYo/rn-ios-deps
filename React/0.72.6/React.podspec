@@ -49,12 +49,12 @@ Pod::Spec.new do |s|
   s.dependency "React-RCTActionSheet", version
 
   # 依赖 React-Codegen 的 pods，Framework 项目可能并不需要
-  # s.dependency "React-RCTAnimation", version
-  # s.dependency "React-RCTBlob", version
-  # s.dependency "React-RCTImage", version
-  # s.dependency "React-RCTLinking", version
-  # s.dependency "React-RCTNetwork", version
-  # s.dependency "React-RCTSettings", version
-  # s.dependency "React-RCTText", version
-  # s.dependency "React-RCTVibration", version
+  s.dependency "React-RCTAnimation", version
+  s.dependency "React-RCTBlob", version
+  s.dependency "React-RCTImage", version
+  s.dependency "React-RCTLinking", version
+  s.dependency "React-RCTNetwork", version
+  s.dependency "React-RCTSettings", version
+  s.dependency "React-RCTText", version
+  s.dependency "React-RCTVibration", version
 end
