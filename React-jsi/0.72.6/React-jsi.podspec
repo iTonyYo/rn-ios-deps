@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.dependency "glog"
 
   if js_engine == :jsc
-    s.source_files  = "**/*.{cpp,h}"
+    s.source_files  = "Libraries/React-jsi/**/*.{cpp,h}"
     s.exclude_files = [
                         "jsi/jsilib-posix.cpp",
                         "jsi/jsilib-windows.cpp",

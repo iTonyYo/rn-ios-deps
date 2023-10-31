@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author                 = "Meta Platforms, Inc. and its affiliates"
   s.platforms              = { :ios => "12.4" }
   s.source                 = source
-  s.source_files           = "**/*.{h,m}"
+  s.source_files           = "Libraries/React-RCTText/**/*.{h,m}"
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "RCTText"
 
