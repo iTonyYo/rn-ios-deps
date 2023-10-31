@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author                 = "Meta Platforms, Inc. and its affiliates"
   s.platforms              = { :ios => "12.4" }
   s.source                 = source
-  s.source_files           = "**/*.{c,h,m,mm,cpp}"
+  s.source_files           = "Libraries/RCTTypeSafety/**/*.{c,h,m,mm,cpp}"
   s.header_dir             = "RCTTypeSafety"
   s.pod_target_xcconfig    = {
                                "USE_HEADERMAP" => "YES",
