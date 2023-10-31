@@ -47,7 +47,8 @@ Pod::Spec.new do |s|
   s.dependency "React-Core/RCTWebSocket", version
 
   s.dependency "React-RCTActionSheet", version
-  s.dependency "React-RCTAnimation", version
+  
+  # s.dependency "React-RCTAnimation", version
   # s.dependency "React-RCTBlob", version
   # s.dependency "React-RCTImage", version
   # s.dependency "React-RCTLinking", version
