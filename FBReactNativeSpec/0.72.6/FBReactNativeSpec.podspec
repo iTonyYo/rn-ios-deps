@@ -6,7 +6,7 @@
 require "json"
 
 react_native_path = "../.."
-# require_relative "#{react_native_path}/scripts/react_native_pods.rb"
+require_relative "#{react_native_path}/scripts/react_native_pods.rb"
 
 package = JSON.parse(File.read(File.join(__dir__, "..", "..", "package.json")))
 version = package['version']
