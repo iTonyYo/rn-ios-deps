@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
                              }
   s.framework              = "UserNotifications"
 
-  s.dependency "React-Codegen", version
+  # s.dependency "React-Codegen", version
   s.dependency "RCTTypeSafety", version
   s.dependency "React-Core/RCTPushNotificationHeaders", version
   s.dependency "ReactCommon/turbomodule/core", version

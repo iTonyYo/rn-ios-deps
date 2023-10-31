@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
                                "HEADER_SEARCH_PATHS" => header_search_paths.join(" ")
                              }
 
-  s.dependency "React-Codegen", version
+  # s.dependency "React-Codegen", version
   s.dependency "RCT-Folly", folly_version
   s.dependency "RCTTypeSafety", version
   s.dependency "React-Core/CoreModulesHeaders", version

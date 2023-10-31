@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   s.frameworks             = "MobileCoreServices"
 
   s.dependency "RCT-Folly", folly_version
-  s.dependency "React-Codegen", version
+  # s.dependency "React-Codegen", version
   s.dependency "RCTTypeSafety", version
   s.dependency "ReactCommon/turbomodule/core", version
   s.dependency "React-jsi", version
